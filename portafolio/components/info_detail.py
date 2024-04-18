@@ -1,5 +1,6 @@
 import reflex as rx
 from portafolio.components.icon_badge import icon_badge
+from portafolio.components.icon_badge import icon_text
 from portafolio.components.icon_button import icon_button
 from portafolio.data import Info
 from portafolio.styles.styles import IMAGE_HEIGHT, EmSize, Size
@@ -12,11 +13,21 @@ def info_detail(info: Info) -> rx.Component:
             rx.vstack(
                 rx.text.strong(info.title),
                 rx.text(info.subtitle),
-                rx.text(
+                rx.text(                    
                     info.description,
                     size=Size.SMALL.value,
                     color_scheme="gray"
                 ),
+                *[
+                    rx.text(
+                        icon_text(test.icon),
+                        test2,
+                        size=Size.SMALL.value,
+                        color_scheme="gray"
+                    )                    
+                    for test in info.experiences
+                    for test2 in test.items_Description
+                    ],
                 rx.cond(
                     info.technologies,
                     rx.flex(

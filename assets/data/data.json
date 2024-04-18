@@ -1,34 +1,34 @@
 {
-    "title": "Thomas A. Anderson (Neo) | Portafolio",
+    "title": "Duvan Ricardo Sanchez | Portafolio",
     "description": "Soy Neo, posiblemente el mejor programador de la historia.",
-    "image": "/avatar.jpg",
-    "avatar": "/avatar.jpg",
-    "name": "Thomas A. Anderson (Neo)",
-    "skill": "Programador, hacker y el Elegido",
-    "location": "Matrix y el mundo real",
+    "image": "/avatar3.jpeg",
+    "avatar": "/avatar3.jpeg",
+    "name": "Duvan Ricardo Sanchez",
+    "skill": "Developer RPA",
+    "location": "Medellin-Antioquia(COL)",
     "media": {
-        "email": "neo@metacortex.com",
+        "email": "Sanchezduvanricardo@gmail.com",
         "cv": "/data/cv.pdf",
-        "github": "https://github.com/thomasanderson",
-        "likedin": "https://linkedin.com/in/thomasanderson"
+        "github": "https://github.com/",
+        "likedin": "https://www.linkedin.com/in/duvan-ricardo-sanchez-rodriguez/"
     },
-    "about": "Soy un programador inquieto con una doble vida, ya que trabajo en una prestigiosa empresa de software pero también he cometido todos los crímenes informáticos que existen. Tengo la sensación de que nada es lo que parece ser.",
+    "about": "I am a RPA developer with around 4 years of experience in process automation, committed to continuous learning and passionate about innovation. I consider myself responsible and competent in collaborative work, with skills in change management, vision, and strategic planning oriented towards achieving objectives and continuous improvement. Each project is an opportunity to apply these skills and contribute to the team's success. My focus on process automation is combined with my commitment to excellence and continuous evolution, always seeking to overcome challenges with innovative and strategic solutions.",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Binario"
+            "icon": "/UiPath.svg",
+            "name": "UiPath"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Ensamblador"
+            "icon": "/PowerAutomate_scalable.svg",
+            "name": "Power Automate"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "COBOL"
+            "icon": "/PowerApps_scalable.svg",
+            "name": "Power Apps"
         },
         {
             "icon": "devicon-c-plain",
-            "name": "C"
+            "name": "Visual Basic"
         },
         {
             "icon": "devicon-python-plain",
@@ -37,18 +37,42 @@
     ],
     "experience": [
         {
-            "icon": "terminal",
-            "title": "Metacortex",
-            "subtitle": "Programador",
-            "description": "Programo software respetable desde un cubículo.",
-            "date": "1999"
+            "icon": "bot",
+            "title": "Owens-Illinois Inc. (O-I Glass) | eBFactory S.A.S.",
+            "subtitle": "RPA Analyst",
+            "description":  "",
+            "date": "jun-2021 Current",
+            "experiences": [
+                {   
+                    "icon": "dot",            
+                    "items_Description":["Design, develop and implement robotic process automation solutions using UiPath,VB.Net, Power Apss and Power Automate tools.",
+                    "Analyze and evaluate automation workflows to identify opportunities for improvement.",
+                    "Test and debug automation solutions to ensure functionality and reliability. Collaborate with team members to find solutions to problems.",
+                    "Provide technical support and troubleshoot issues related to RPA implementations.",
+                    "Collaborate with cross-functional teams to integrate RPA solutions with existing systems.",
+                    "Document RPA processes, Solution Design Document (SDD) and Process Definition Document (PDD)" ]
+                }
+            ]
+            
         },
         {
-            "icon": "rabbit",
-            "title": "Nebuchadnezzar",
-            "subtitle": "El Elegido",
-            "description": "Me encargo de salvar el mundo.",
-            "date": "1999 - Actualidad"
+            "icon": "bot",
+            "title": "Digital-Bots S.A.S.",
+            "subtitle": "RPA Developer",
+            "description": "",
+            "date": "Sep 2019 - Jun 2021 ",
+            "experiences": [
+                {   
+                    "icon": "dot",            
+                    "items_Description":["Design, develop and test automation workflows using UiPath",
+                    "Deploy RPA components: bots, robots, development tools, among others",
+                    "Support the implementation of RPA solutions",
+                    "Document business processes (PDD)",
+                    "Ensure the quality of automation (QA processes)"
+                    ]
+                }
+            ]           
+            
         }
     ],
     "projects": [
@@ -62,8 +86,8 @@
                     "icon": "devicon-python-plain",
                     "name": "Python"
                 },
-                {
-                    "icon": "devicon-django-plain",
+                 {
+                    "icon": "devicon-django-plain", 
                     "name": "Django"
                 }
             ],
@@ -89,20 +113,28 @@
     ],
     "training": [
         {
-            "icon": "backpack",
-            "title": "Central West Junior High",
-            "subtitle": "Una escuela",
-            "description": "Aprendí cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "icon": "graduation-cap",
+            "title": "SYSTEMS ENGINEER",
+            "subtitle": "UNIVERSIDAD NACIONAL ABIERTA Y A DISTANCIA",
+            "description": "",
+            "date": "Feb 2019 - Current",
+            "certificate": ""
+        },
+        {
+            "icon": "bot",
+            "title": "UiPath Academy",
+            "subtitle": "RPA UiPath Developer Advanced",
+            "description": "",
+            "date": "Jan 2020 - Apr 2020",
+            "certificate": ""
         },
         {
             "icon": "graduation-cap",
-            "title": "Owen Patterson High",
-            "subtitle": "Otra escuela",
-            "description": "Aprendí más cosas.",
-            "date": "Indeterminado",
-            "certificate": "https://en.wikipedia.org/wiki/Neo_(The_Matrix)"
+            "title": "DATA NETWORK MANAGEMENT",
+            "subtitle": "SENA",
+            "description": "",
+            "date": "Feb 2016 - Feb 2018",
+            "certificate": ""
         }
     ],
     "extras": [

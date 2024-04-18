@@ -1,6 +1,7 @@
 *.db
 *.py[cod]
 .venv
+.venvPortafolio
 .web
 __pycache__/
 public/
